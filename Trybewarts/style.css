@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.trybewarts-login input {
+  border-radius: 10px;
+  height: 30px;
+  width: 160px;
+  margin: 10px;
+  border: 3px solid white;
+}
+
+.trybewarts-login button {
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid white;
+}
+
+.trybewarts-header-logo {
+  width: 90px;
+  margin-left: 20px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 100px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#form-title {
+  display: flex;
+  justify-content: center;
+}
+
+#section-1 {
+  display: flex;
+  margin: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-name {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#input-lastname {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#input-email {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#house {
+  width: 265px;
+  height: 50px;
+}
+
+#div-name-lastname {
+  display: flex;
+  align-items: center;
+}
+
+
+#conteiner-child {
+  display: flex;
+  margin: 2%;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#conteiner-input-radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-right: 80px;
+}
+
+#conteiner-input-radio label {
+  margin-top: 30px;
+}
+
+#conteiner-conteudo-a-aprender input {
+  margin-top: 20px;
+  width: 30px;
+}
+
+#input-rate {
+  display: flex;
+  margin: 4%;
+}
+
+#div-label-input label {
+  margin-left: 10px;
+}
+
+#conteiner-textarea {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+}
+
+#conteiner-textarea textarea {
+  resize: none;
+}
+
+#conteiner-btn-submit-limpar {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#submit-btn {
+  height: 40px;
+  background-color: firebrick;
+  width: 337px;
+}
+
+#reset-btn {
+  height: 40px;
+  background-color: dodgerblue;
+  width: 337px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  margin-top: 7%;
+}
+
+hr {
+  width: 675px;
+}
+
+#Caracteres {
+  display: flex;
+  margin-top: 20px;
+}
+
+#input-checkbox-agreement {
+  margin: 4%;
+}
+
+.classe-name-lastname {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.classe-email-house {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.classe-input-radio {
+  margin-top: 10px;
+}
